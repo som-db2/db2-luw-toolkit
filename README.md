@@ -3,28 +3,16 @@
 - This repository is intended for DBAs, Linux administrators, consultants, and engineers responsible for managing IBM DB2 LUW databases in production.
 
 ## Features
-
 ✔ Database Health Check
-
 ✔ Tablespace Monitoring
-
 ✔ Backup & Restore Automation
-
 ✔ HADR Administration
-
 ✔ Performance Analysis
-
 ✔ Lock Investigation
-
 ✔ Log Management
-
 ✔ Capacity Planning
-
 ✔ Utility Monitoring
-
 ✔ Linux Shell Automation
-
----
 
 ## Repository Structure
 
