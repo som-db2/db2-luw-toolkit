@@ -1,0 +1,13 @@
+=============================================================
+DB2 TABLESPACE CAPACITY REPORT
+=============================================================
+
+Database : SAMPLE
+
+SYSCATSPACE                     DMS       42.16% 1          OK
+USERSPACE1                      DMS       71.90% 1          OK
+INDEXSPACE                      DMS       84.11% 1          WARNING
+TS_ORDERS                       DMS       94.38% 1          CRITICAL
+TS_CUSTOMERS                    DMS       98.41% 1          CRITICAL
+
+Report saved to reports/tablespace_report_20260630_220000.txt

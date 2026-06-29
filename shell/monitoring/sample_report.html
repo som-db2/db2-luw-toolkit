@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DB2 Tablespace Report</title>
+<style>
+body{font-family:Arial;margin:40px;}
+table{border-collapse:collapse;width:100%}
+th,td{border:1px solid #ccc;padding:8px}
+.ok{background:#d9f2d9}
+.warn{background:#fff4cc}
+.crit{background:#ffd6d6}
+</style>
+</head>
+<body>
+<h1>Enterprise DB2 LUW Toolkit</h1>
+<h2>Tablespace Capacity Report</h2>
+
+<table>
+<tr><th>Tablespace</th><th>Used %</th><th>Status</th></tr>
+<tr class="ok"><td>SYSCATSPACE</td><td>42.16</td><td>OK</td></tr>
+<tr class="warn"><td>INDEXSPACE</td><td>84.11</td><td>WARNING</td></tr>
+<tr class="crit"><td>TS_ORDERS</td><td>94.38</td><td>CRITICAL</td></tr>
+</table>
+
+<h3>Recommendations</h3>
+<ul>
+<li>Extend or enable autoresize for critical tablespaces.</li>
+<li>Review growth trends weekly.</li>
+<li>Schedule capacity planning before 90% utilization.</li>
+</ul>
+
+</body>
+</html>
