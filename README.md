@@ -4,23 +4,14 @@
 
 ## Features
 ✔ Database Health Check
-
 ✔ Tablespace Monitoring
-
 ✔ Backup & Restore Automation
-
 ✔ HADR Administration
-
 ✔ Performance Analysis
-
 ✔ Lock Investigation
-
 ✔ Log Management
-
 ✔ Capacity Planning
-
 ✔ Utility Monitoring
-
 ✔ Linux Shell Automation
 
 ## Repository Structure
@@ -62,9 +53,8 @@ reports/
 - Version 11.x
 
 ## Current Modules
-
-| Module | Status |
-|---------|--------|
+| Module  | Status  |
+|---------|---------|
 | Health Check | ✔ |
 | Backup Monitoring | ✔ |
 | Restore Automation | ✔ |
@@ -73,10 +63,7 @@ reports/
 | Performance Toolkit | In Progress |
 | Capacity Planning | In Progress |
 
----
-
 ## Sample Topics
-
 - Detect tablespaces nearing capacity
 - Monitor online backups
 - Backup Pending detection
@@ -88,16 +75,11 @@ reports/
 - Log utilization
 - Storage growth forecasting
 
----
-
 ## Contributing
-
 Suggestions and improvements are welcome.
 
----
-
 ## Disclaimer
+These scripts are provided for educational and operational reference. Always test in a non-production environment before use in production systems.
 
-These scripts are provided for educational and operational reference.
-
-Always test in a non-production environment before use in production systems.
+## Get in touch
+sskundu2025@gmail.com · https://www.upwork.com/freelancers/~018dda4eb8eb0a6da1?mp_source=share
